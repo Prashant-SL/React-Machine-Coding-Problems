@@ -1,0 +1,67 @@
+.container {
+  height: 400px;
+  width: 600px;
+  position: relative;
+}
+
+.carousel-container {
+  position: relative;
+  display: flex;
+  height: 400px;
+  width: 600px;
+}
+
+.image-style {
+  display: flex;
+  width: 90%;
+  height: 100%;
+}
+
+.active {
+  width: 100%;
+  display: inline;
+}
+
+.hide {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+.arrows-container {
+  justify-content: space-between;
+  width: 85%;
+  position: absolute;
+  top: 45%;
+  left: 2%;
+}
+
+.arrow {
+  border-radius: 50%;
+  padding: 10px 13px;
+  cursor: pointer;
+}
+
+.dots-container {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  margin: 0px 5px;
+  cursor: pointer;
+}
+
+.dot-active {
+  font-size: 15px;
+  background-color: black;
+  border-radius: 50%;
+  padding: 0px 3px;
+}
+
+.dot-inactive {
+  font-size: 15px;
+}
