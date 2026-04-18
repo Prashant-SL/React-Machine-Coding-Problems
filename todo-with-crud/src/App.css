@@ -1,0 +1,117 @@
+.grid-table-container {
+  font-family: system-ui, -apple-system, sans-serif;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.table-header h2 {
+  margin: 0;
+  color: #111827;
+}
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.search-input {
+  padding: 0.6rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  width: 280px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.clear-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+}
+
+.clear-btn:hover { background: #dc2626; }
+
+.table-scroll {
+  overflow-x: auto;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.header-cell {
+  background: #f9fafb;
+  padding: 0.85rem 1rem;
+  text-align: left;
+  cursor: pointer;
+  user-select: none;
+  border-bottom: 2px solid #e5e7eb;
+  white-space: nowrap;
+  position: relative;
+}
+
+.header-cell:hover { background: #f3f4f6; }
+
+.header-cell.sorted { background: #eef2ff; color: #2563eb; }
+
+.header-text { margin-right: 6px; font-weight: 600; }
+
+.sort-icon { font-size: 0.8rem; opacity: 0.6; }
+.header-cell.sorted .sort-icon { opacity: 1; color: #2563eb; }
+
+.data-cell {
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  color: #374151;
+}
+
+tr:hover .data-cell { background: #fafafa; }
+
+.no-results {
+  text-align: center;
+  padding: 2rem;
+  color: #6b7280;
+  font-style: italic;
+}
+
+.table-footer {
+  margin-top: 0.75rem;
+  text-align: right;
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .table-header { flex-direction: column; align-items: stretch; }
+  .search-input { width: 100%; }
+}
