@@ -1,0 +1,408 @@
+[
+  {
+    "id": 1,
+    "parentId": null,
+    "user": "Alice",
+    "text": "This is a great tutorial! Thanks for sharing.",
+    "timestamp": "2 mins ago"
+  },
+  {
+    "id": 2,
+    "parentId": 1,
+    "user": "Bob",
+    "text": "Agreed, really helped me understand the concept.",
+    "timestamp": "1 min ago"
+  },
+  {
+    "id": 3,
+    "parentId": 2,
+    "user": "Charlie",
+    "text": "Same here! The examples were clear.",
+    "timestamp": "Just now"
+  },
+  {
+    "id": 4,
+    "parentId": 1,
+    "user": "Diana",
+    "text": "Could you make a follow-up on advanced topics?",
+    "timestamp": "5 mins ago"
+  },
+  {
+    "id": 5,
+    "parentId": 4,
+    "user": "Alice",
+    "text": "Yes, planning one for next week!",
+    "timestamp": "4 mins ago"
+  },
+  {
+    "id": 6,
+    "parentId": 1,
+    "user": "Eve",
+    "text": "Love the design of the code snippets.",
+    "timestamp": "10 mins ago"
+  },
+  {
+    "id": 7,
+    "parentId": null,
+    "user": "Frank",
+    "text": "I found a small bug in step 3.",
+    "timestamp": "1 hour ago"
+  },
+  {
+    "id": 8,
+    "parentId": 7,
+    "user": "Author",
+    "text": "Thanks for reporting! Fixed it now.",
+    "timestamp": "55 mins ago"
+  },
+  {
+    "id": 9,
+    "parentId": 8,
+    "user": "Frank",
+    "text": "Wow, that was fast. Appreciate it.",
+    "timestamp": "50 mins ago"
+  },
+  {
+    "id": 10,
+    "parentId": 7,
+    "user": "Grace",
+    "text": "I didn't notice that, good catch!",
+    "timestamp": "45 mins ago"
+  },
+  {
+    "id": 11,
+    "parentId": 10,
+    "user": "Heidi",
+    "text": "Yeah, easy to miss if you rush.",
+    "timestamp": "40 mins ago"
+  },
+  {
+    "id": 12,
+    "parentId": 7,
+    "user": "Ivan",
+    "text": "Does this affect the final build?",
+    "timestamp": "30 mins ago"
+  },
+  {
+    "id": 13,
+    "parentId": 12,
+    "user": "Author",
+    "text": "No, only the dev server.",
+    "timestamp": "25 mins ago"
+  },
+  {
+    "id": 14,
+    "parentId": 7,
+    "user": "Judy",
+    "text": "Great community support here.",
+    "timestamp": "20 mins ago"
+  },
+  {
+    "id": 15,
+    "parentId": null,
+    "user": "Kevin",
+    "text": "Can this be done with Vue instead?",
+    "timestamp": "2 hours ago"
+  },
+  {
+    "id": 16,
+    "parentId": 15,
+    "user": "Liam",
+    "text": "The logic is framework agnostic, so yes.",
+    "timestamp": "1.5 hours ago"
+  },
+  {
+    "id": 17,
+    "parentId": 16,
+    "user": "Kevin",
+    "text": "Good to know, will try it out.",
+    "timestamp": "1 hour ago"
+  },
+  {
+    "id": 18,
+    "parentId": 15,
+    "user": "Mia",
+    "text": "I ported this to Vue last week, works perfectly.",
+    "timestamp": "1.8 hours ago"
+  },
+  {
+    "id": 19,
+    "parentId": 18,
+    "user": "Noah",
+    "text": "Do you have a repo link?",
+    "timestamp": "1.2 hours ago"
+  },
+  {
+    "id": 20,
+    "parentId": null,
+    "user": "Olivia",
+    "text": "The performance optimization tip at the end was gold.",
+    "timestamp": "3 hours ago"
+  },
+  {
+    "id": 21,
+    "parentId": 20,
+    "user": "Paul",
+    "text": "Reduced my load time by 40% using that!",
+    "timestamp": "2.5 hours ago"
+  },
+  {
+    "id": 22,
+    "parentId": 21,
+    "user": "Quinn",
+    "text": "Which part specifically? The memoization?",
+    "timestamp": "2.2 hours ago"
+  },
+  {
+    "id": 23,
+    "parentId": 20,
+    "user": "Rachel",
+    "text": "I need to implement this in my project ASAP.",
+    "timestamp": "2.8 hours ago"
+  },
+  {
+    "id": 24,
+    "parentId": 23,
+    "user": "Sam",
+    "text": "Same! It's exactly what I needed.",
+    "timestamp": "2.6 hours ago"
+  },
+  {
+    "id": 25,
+    "parentId": 20,
+    "user": "Tina",
+    "text": "Bookmarked for later reference.",
+    "timestamp": "2.9 hours ago"
+  },
+  {
+    "id": 26,
+    "parentId": null,
+    "user": "Ursula",
+    "text": "Is there a GitHub repo for this?",
+    "timestamp": "4 hours ago"
+  },
+  {
+    "id": 27,
+    "parentId": 26,
+    "user": "Author",
+    "text": "Yes, link is in the description!",
+    "timestamp": "3.5 hours ago"
+  },
+  {
+    "id": 28,
+    "parentId": 27,
+    "user": "Ursula",
+    "text": "Found it, thanks!",
+    "timestamp": "3.4 hours ago"
+  },
+  {
+    "id": 29,
+    "parentId": 26,
+    "user": "Victor",
+    "text": "Looking forward to contributing.",
+    "timestamp": "3.8 hours ago"
+  },
+  {
+    "id": 30,
+    "parentId": 29,
+    "user": "Wendy",
+    "text": "They accept PRs? That's awesome.",
+    "timestamp": "3.6 hours ago"
+  },
+  {
+    "id": 31,
+    "parentId": null,
+    "user": "Xander",
+    "text": "First time commenting here, love the content.",
+    "timestamp": "5 hours ago"
+  },
+  {
+    "id": 32,
+    "parentId": 31,
+    "user": "Yara",
+    "text": "Welcome to the community!",
+    "timestamp": "4.5 hours ago"
+  },
+  {
+    "id": 33,
+    "parentId": 32,
+    "user": "Xander",
+    "text": "Thanks! Happy to be here.",
+    "timestamp": "4.4 hours ago"
+  },
+  {
+    "id": 34,
+    "parentId": 31,
+    "user": "Zack",
+    "text": "You'll learn a lot from these posts.",
+    "timestamp": "4.8 hours ago"
+  },
+  {
+    "id": 35,
+    "parentId": 34,
+    "user": "Amy",
+    "text": "Definitely, best tech blog out there.",
+    "timestamp": "4.6 hours ago"
+  },
+  {
+    "id": 36,
+    "parentId": 31,
+    "user": "Ben",
+    "text": "Don't forget to check the older archives too.",
+    "timestamp": "4.9 hours ago"
+  },
+  {
+    "id": 37,
+    "parentId": 36,
+    "user": "Xander",
+    "text": "Will do, thanks for the tip.",
+    "timestamp": "4.7 hours ago"
+  },
+  {
+    "id": 38,
+    "parentId": null,
+    "user": "Clara",
+    "text": "How do you handle authentication in this example?",
+    "timestamp": "6 hours ago"
+  },
+  {
+    "id": 39,
+    "parentId": 38,
+    "user": "Author",
+    "text": "Using JWT stored in httpOnly cookies.",
+    "timestamp": "5.5 hours ago"
+  },
+  {
+    "id": 40,
+    "parentId": 39,
+    "user": "Clara",
+    "text": "Secure choice. Thanks!",
+    "timestamp": "5.4 hours ago"
+  },
+  {
+    "id": 41,
+    "parentId": 38,
+    "user": "David",
+    "text": "What about OAuth?",
+    "timestamp": "5.8 hours ago"
+  },
+  {
+    "id": 42,
+    "parentId": 41,
+    "user": "Author",
+    "text": "That's covered in Part 2 of the series.",
+    "timestamp": "5.6 hours ago"
+  },
+  {
+    "id": 43,
+    "parentId": null,
+    "user": "Ella",
+    "text": "The color scheme is very easy on the eyes.",
+    "timestamp": "7 hours ago"
+  },
+  {
+    "id": 44,
+    "parentId": 43,
+    "user": "Finn",
+    "text": "Agreed, dark mode would be nice though.",
+    "timestamp": "6.5 hours ago"
+  },
+  {
+    "id": 45,
+    "parentId": 44,
+    "user": "Ella",
+    "text": "Oh yes, dark mode please!",
+    "timestamp": "6.4 hours ago"
+  },
+  {
+    "id": 46,
+    "parentId": 43,
+    "user": "George",
+    "text": "I use a custom CSS injector for dark mode.",
+    "timestamp": "6.8 hours ago"
+  },
+  {
+    "id": 47,
+    "parentId": 46,
+    "user": "Hannah",
+    "text": "Care to share the snippet?",
+    "timestamp": "6.6 hours ago"
+  },
+  {
+    "id": 48,
+    "parentId": 43,
+    "user": "Ian",
+    "text": "Minimalist design is best.",
+    "timestamp": "6.9 hours ago"
+  },
+  {
+    "id": 49,
+    "parentId": null,
+    "user": "Julia",
+    "text": "Can I use this in a commercial project?",
+    "timestamp": "8 hours ago"
+  },
+  {
+    "id": 50,
+    "parentId": 49,
+    "user": "Author",
+    "text": "Yes, it's MIT licensed.",
+    "timestamp": "7.5 hours ago"
+  },
+  {
+    "id": 51,
+    "parentId": 50,
+    "user": "Julia",
+    "text": "Perfect, thanks!",
+    "timestamp": "7.4 hours ago"
+  },
+  {
+    "id": 52,
+    "parentId": 49,
+    "user": "Karl",
+    "text": "Always check the license file guys.",
+    "timestamp": "7.8 hours ago"
+  },
+  {
+    "id": 53,
+    "parentId": 52,
+    "user": "Liam",
+    "text": "Good advice.",
+    "timestamp": "7.6 hours ago"
+  },
+  {
+    "id": 54,
+    "parentId": null,
+    "user": "Mona",
+    "text": "Waiting for the video version of this!",
+    "timestamp": "9 hours ago"
+  },
+  {
+    "id": 55,
+    "parentId": 54,
+    "user": "Nina",
+    "text": "Same, I'm a visual learner.",
+    "timestamp": "8.5 hours ago"
+  },
+  {
+    "id": 56,
+    "parentId": 55,
+    "user": "Mona",
+    "text": "Hopefully soon!",  
+    "timestamp": "8.4 hours ago"
+  },
+  {
+    "id": 57,
+    "parentId": 54,
+    "user": "Oscar",
+    "text": "The written format is fine for me.",
+    "timestamp": "8.8 hours ago"
+  },
+  {
+    "id": 58,
+    "parentId": 57,
+    "user": "Paula",
+    "text": "Both formats would be ideal.",
+    "timestamp": "8.6 hours ago"
+  }
+]
